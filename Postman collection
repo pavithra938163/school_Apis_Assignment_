@@ -1,0 +1,9 @@
+##REQUEST1
+Add school
+/api/addSchool
+Body--JSON
+
+##REQUEST2
+List Schools
+  GET
+/api/listSchools?latitude=12.9716&longitude=77.5946
