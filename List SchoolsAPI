@@ -1,0 +1,14 @@
+GET(postman)
+http://localhost:5000/api/listSchools?latitude=12.9716&longitude=77.5946
+RESPONSE IN POSTMAN
+[
+  {
+    "id": 1,
+    "name": "ABC School",
+    "address": "MG Road Bangalore",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "distance": 0
+  }
+]
+##Sorted by nearest school first.
