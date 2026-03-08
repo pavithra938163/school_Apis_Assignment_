@@ -1,0 +1,14 @@
+Add SCHOOL API
+POST
+BODY (JSON)
+{
+  "name": "ABC School",
+  "address": "MG Road Bangalore",
+  "latitude": 12.9716,
+  "longitude": 77.5946
+}
+RESPONSE
+{
+  "message": "School added successfully",
+  "schoolId": 1
+}
